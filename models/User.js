@@ -31,6 +31,11 @@ const UserSchema = mongoose.Schema({
     default: false
   },
 
+  isJoin: {
+    type: String,
+    default:"test"
+  },
+
   cart: {
     type: Object,
     default: {
